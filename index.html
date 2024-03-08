@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title class="head">AestheticSignature</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <style>
+  body {
+        background-image: url('images/Capture3.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /
+  }
+  .background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Ensures the video stays in the background */
+}
+
+.background-video video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
+    <div class="background-video">
+    <img src="images/Capture3.jpg">
+    Your browser does not support the video tag.
+</div>
+<body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/outputlogo.png">
+      <ul>
+          <li><a href="#header">Accueil</a> </li>
+        <li><a href="#About">A propos-nous</a> </li>
+        <li><a href="#Portfolio">Résultats</a> </li>
+        <li><a href="#">Services</a> </li>
+        <li><a href="#contact">contact</a> </li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <h1>AESTHETIC SIGNATURES</h1>
+      <p>MEDECINE <span>&</span> SURGERY CENTER </p>
+  </div>
+</div>
+<style>
+  #header{
+      width:100%;
+      height: 100vh;
+  }
+  .container{
+      padding: 10px 5%;
+  }
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap= wrap;
+  }
+  .logo{
+      width: 140px;
+  }
+  nav ul li {
+      display: inline-block;
+      list-style: none;
+      margin:10px 20px;
+  }
+  nav ul li a{
+      color:#efc437;
+      text-decoration:none;
+      font-size: 18px;
+      position:relative;
+  }
+  nav ul li a::after{
+      content: '';
+      width:0;
+      height: 3px;
+      background:#45B39D ;
+      position: absolute;
+      left:0;
+      bottom:-6px;
+      transition:0.5s;
+  }
+  nav ul li a:hover::after{
+       width:100%;
+  }
+  nav ul li a:hover::after{
+       width:100%;
+  }
+  .header-text{
+        margin-top: 6%;
+        font-size: 40px;
+        text-align: center;
+  }
+  .header-text h1{
+        font-style: italic;
+        font-size: 60px;
+        margin-top:20px;
+        color: #efc437;
+  }
+  .header-text p{
+        color:#45B39D;
+  }
+</style>
+  <!-----------about------------>
+ <div id="About">
+    <div class="container">
+      <div class="row">
+        <div class="About-col-2">
+           <h1 class="subtitle" >Qui sommes-nous</h1>
+          <p class="sub1">Bienvenue chez AestheticSignatures ! Située au cœur de Marrakech,
+              nous sommes dédiés à vous aider à atteindre vos objectifs esthétiques avec confiance et confort.
+              Notre équipe propose des traitements de pointe, personnalisés pour sublimer votre beauté naturelle.
+              Nous vous offrons des soins exceptionnels et des résultats qui dépassent vos attentes.</p>
+
+          <p class="sub2">Chez AestheticSignatures, nous accordons une importance primordiale aux soins personnalisés,
+              en écoutant vos préoccupations et en adaptant les traitements à vos besoins uniques.
+              Nous nous engageons à l'excellence et à vous accompagner dans votre parcours vers l'amélioration de soi.</p>
+        </div>
+        <div class="About-col-1">
+          <img src="images/im2.jpg"></div>
+     </div>
+         <a href="index2.html" class="btn">Savoir Plus</a>
+  </div>
+ </div>
+  <style>
+ #About{
+    background-color: #45B39D;
+    margin-top: 15%;
+    padding: 40px 0;
+    color: gray;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.About-col-1 {
+flex-basis: 30%;
+}
+.About-col-1 img{
+      width: 100%;
+      border-radius: 30px;
+      margin-right:10%;
+}
+.About-col-2 {
+font-size: 23px;
+color:#ECF0F1;
+flex-basis: 65%;
+}
+.subtitle{
+    font-size: 30px;
+    font-weight: 600;
+    color:#f2cb3c;
+}
+.btn{
+    display: block;
+    margin-left:23%;
+    width: fit-content;
+    border: 1px solid #0E6655;
+    padding: 18px 50px ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #f2cb3c;
+    transition: background 0.5s;
+    background:#45B39D
+}
+.btn:hover{
+    background: #16A085  ;
+}
+  </style>
+<!-----------------portfolio------------------------------>
+<div id="Portfolio">
+  <div class="container">
+    <h1 class="subtitle2" >Résultats de Traitement</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/image1 .jpg">
+        <div class="layer">
+          <h3>Lip filler</h3>
+          <p> Lèvres pulpeuses grâce à notre traitement de remplissage des lèvres.</p>
+        </div>
+      </div>
+       <div class="work">
+        <img src="images/image8.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p>Lèvres rebondies obtenues avec nos injections de remplissage des lèvres.</p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image7.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p> Lèvres volumineuses grâce à notre traitement de remplissage des lèvres. </p>
+        </div>
+      </div>
+    </div>
+      <a href="index3.html" class="btn2">Explorer plus</a>
+  </div>
+</div>
+ <style>
+#Portfolio{
+    width:100%;
+    padding: 10px 0;
+}
+.subtitle2{
+     color:#f2cb3c;
+     text-align:center;
+     padding:50px;
+}
+.work-list{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+     grid-gap: 40px;
+     margin-top: 50px;
+}
+.work{
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.work img{
+  width:70%; /* Set the width */
+  height:100%;
+  border-radius: 30px; /* Add rounded corners if desired */
+  display:block;
+  transition:  transform 0.5s;
+}
+.layer{
+   width: 74%;
+   height: 0;
+   background: linear-gradient(rgba(0,0,0,0.6),#45B39D);
+   border-radius: 10px;
+   position: absolute;
+   top:20;
+   left: 1;
+   bottom: 0;
+   overflow: hidden;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0 40px;
+   text-align: center;
+   font-size: 14px;
+   transition: height 0.5s;
+}
+.layer h3{
+    color:#f2cb3c;
+    font-weight: bold;
+}
+.layer p{
+    color:#f2cb3c;
+}
+.work:hover img{
+     transform: scale(1.1);
+}
+.work:hover .layer{
+     height: 100%;
+}
+.btn2{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #f2cb3c;
+    padding: 14px 50px ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #f2cb3c;
+    transition: background 0.5s;
+}
+.btn2:hover{
+    background:#0E6655;
+}
+</style>
+<!-----------------------Contact------------------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+        <h1 class="title" > Prenez rendez-vous à AestheticSignatures ! Où votre bien-être et votre satisfaction sont notre priorité absolue.</h1>
+      <div class="contact-left">
+        <h1 class="subtitle3">Contactez nous</h1>
+        <p><i class="fa fa-paper-plane"></i>ibnounawar@gmail.com</p>
+        <p><i class="fa fa-phone "></i>05 24 42 35 28</p>
+         <div class="social-icons">
+              <a href="https://web.facebook.com/aestheticsignatures"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+              <a href="https://www.instagram.com/dr.naouar_ibnou/"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+              <a href="https://www.google.com/maps/place/Aesthetic+signatures+Centre+de+chirurgie+et+m%C3%A9decine+esth%C3%A9tique+Dr+naouar+Ibnouelghazi/@31.6407432,-8.0279137,19.74z/data=!4m6!3m5!1s0xdafef29707b4ae5:0xd3f87823f4c908cb!8m2!3d31.6408043!4d-8.0274565!16s%2Fg%2F11rvg5rlx4?entry=ttu"><span class="fa">&#xf041;</span></a>
+              </div>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+           <input type="text" name="Name" placeholder="Votre nom" required>
+           <input type="email" name="email" placeholder="votre Email" required>
+            <input number="phone" name="phone" placeholder="votre numero" required></input>
+           <textarea name="Message" rows="3" placeholder="Un message"></textarea>
+            <a href="index4.html"  class="btn">confirmez</a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="container4">
+          <div class="copyright">
+        <p>Copyright ©Ayman Ahllabhair. Made by him</p>
+          </div>
+      </div>
+<style>
+#contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #f2cb3c;
+    margin-top: 7%;
+    padding: 20px 0;
+}
+.title{
+   color: #45B39D;
+   text-align: center;
+   margin-bottom:10%;
+}
+.subtitle3{
+   color: #45B39D;
+}
+.contact-left{
+     margin-top:-5%;
+     margin-left: 5%;
+     flex-basis: 35%;
+}
+.contact-right{
+      margin-top:-4%;
+      flex-basis: 60%;
+}
+.contact-left p{
+      color: white;
+      margin-top: 30px;
+}
+.contact-left p i{
+      color: #45B39D;
+      margin-right: 15px;
+      font-size: 25px;
+}
+
+.social-icons a{
+      text-decoration: none;
+      font-size: 30px;
+      margin-right: 15px;
+      color: #45B39D;
+      display: inline-block;
+      transition: transform 0.5s;
+}
+.social-icons a:hover{
+      color:#0E6655;
+      transform: translateY(-5px);
+}
+.btn.btn2{
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #f2cb3c;
+    padding: 14px 50px ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #f2cb3c;
+    transition: background 0.5s;
+    display: inline-block;
+    background:#45B39D;
+}
+.btn:hover{
+    background: #16A085  ;
+}
+.contact-right form{
+    width:100%;
+}
+form input, form textarea{
+    width:75%;
+    border:0;
+    outline: none;
+    background: #45B39D;
+    padding: 15px;
+    margin: 10px 0;
+    color: white;
+    font-size: 18px;
+    border-radius: 4%;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size= 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.container4{
+     text-align:center;
+     color:#f0c638;
+     padding:10px;
+}
+</style>
+<script>
+     const scriptURL = 'https://script.google.com/macros/s/AKfycbxxEIADuE4drZhzErPwYuHinYAf8eBFqlXHle17Jn0AZqcQ__mTxosIQZq0fy6Lt2vX2g/exec'
+     const form = document.forms['submit-to-google-sheet']
+
+     form.addEventListener('submit', e => {
+     e.preventDefault()
+     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>

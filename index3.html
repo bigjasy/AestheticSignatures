@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title class="head">AestheticSignature</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+   <style>
+  body {
+        background-image: url('images/Capture3.jpg'); /* Specify the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /
+  }
+  .background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1; /* Ensures the video stays in the background */
+}
+
+.background-video video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+</style>
+    <div class="background-video">
+    <img src="images/Capture3.jpg">
+    Your browser does not support the video tag.
+</div>
+<body>
+<!--------header-------->
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/outputlogo.png">
+      <ul>
+         <div class="header-text">
+      <h1>AESTHETIC SIGNATURES</h1>
+      <p>MEDECINE <span>&</span> SURGERY CENTER </p>
+  </div>
+      </ul>
+    </nav>
+</div>
+<style>
+  #header{
+      width:100%;
+      height: 100vh;
+  }
+  .container{
+      padding: 10px 5%;
+  }
+  nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap= wrap;
+  }
+  .logo{
+      width: 140px;
+  }
+  nav ul li {
+      display: inline-block;
+      list-style: none;
+      margin:10px 20px;
+  }
+  nav ul li a{
+      color:#efc437;
+      text-decoration:none;
+      font-size: 18px;
+      position:relative;
+  }
+  nav ul li a::after{
+      content: '';
+      width:0;
+      height: 3px;
+      background:#45B39D ;
+      position: absolute;
+      left:0;
+      bottom:-6px;
+      transition:0.5s;
+  }
+  nav ul li a:hover::after{
+       width:100%;
+  }
+  nav ul li a:hover::after{
+       width:100%;
+  }
+  .header-text{
+        font-size: 20px;
+        text-align: center;
+  }
+  .header-text h1{
+        font-style: italic;
+        font-size: 40px;
+        margin-top:20px;
+        color: #efc437;
+  }
+  .header-text p{
+        color:#45B39D;
+  }
+</style>
+<!-----------------portfolio------------------------------>
+<div id="Portfolio">
+  <div class="container">
+    <h1 class="subtitle" >Nos Résultats de Traitement</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/image1 .jpg">
+        <div class="layer">
+          <h3>Lip filler</h3>
+          <p> Lèvres pulpeuses grâce à notre traitement de remplissage des lèvres.</p>
+        </div>
+      </div>
+       <div class="work">
+        <img src="images/image2.jpg">
+          <div class="layer">
+          <h3> Blépharoplastie</h3>
+          <p>Des yeux rafraîchis et rajeunis après notre traitement de blépharoplastie.</p>
+        </div>
+      </div>
+       <div class="work">
+        <img src="images/image3.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p>Lèvres améliorées après notre procédure de remplissage des lèvres.</p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image4.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p>Bouche plus pleine obtenue avec nos injections de remplissage des lèvres.</p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image7.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p> Lèvres volumineuses grâce à notre traitement de remplissage des lèvres. </p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image8.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p>Lèvres rebondies obtenues avec nos injections de remplissage des lèvres.</p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image9.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p>Lèvres transformées avec notre procédure de remplissage des lèvres. </p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image10.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p>Résultat de notre traitement de comblement des lèvres pour une bouche pulpeuse.</p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image11.jpg">
+          <div class="layer">
+          <h3>Rhinoplastie</h3>
+          <p> Un nez harmonieux et équilibré grâce à notre chirurgie de la rhinoplastie. </p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image12.jpg">
+          <div class="layer">
+          <h3>Rhinoplastie</h3>
+          <p>Une apparence transformée avec notre rhinoplastie experte. </p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image13.jpg">
+          <div class="layer">
+          <h3>Rhinoplastie</h3>
+          <p>Un nez redessiné et embelli après notre traitement de rhinoplastie.</p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image14.jpg">
+          <div class="layer">
+          <h3>Rhinoplastie</h3>
+          <p>Un profil nasal plus élégant et esthétique grâce à notre rhinoplastie. </p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image15.jpg">
+          <div class="layer">
+          <h3>Liposuccion </h3>
+          <p> Un profil facial transformé avec notre traitement expert de liposuccion du double menton.</p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image16.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p>Des lèvres repulpées grâce à nos injections de comblement des lèvres.</p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image17.jpg">
+          <div class="layer">
+          <h3>Rhinoplastie</h3>
+          <p>Des traits faciaux affinés et élégants grâce à notre chirurgie de la rhinoplastie.</p>
+        </div>
+      </div>
+        <div class="work">
+        <img src="images/image19.jpg">
+          <div class="layer">
+          <h3>Lip filler</h3>
+          <p>Obtenez des lèvres sublimes avec notre traitement de comblement labial expert. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <a href="index.html" class="btn2">Retournez a l'Acceuil</a>
+  <div class="container4">
+          <div class="copyright">
+        <p>Copyright ©Ayman Ahllabhair. Made by him</p>
+          </div>
+      </div>
+ <style>
+ .container4{
+     text-align:center;
+     color:#f0c638;
+     padding:10px;
+}
+#Portfolio{
+     background-color: #45B39D;
+    margin-top: 1%;
+    padding: 50px 0;
+    color:#f0c638;
+}
+.subtitle{
+     color:#f2cb3c;
+     text-align:center;
+}
+.work-list{
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+     grid-gap: 40px;
+     margin-top: 50px;
+}
+.work{
+  border-radius: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.work img{
+  width:70%; /* Set the width */
+  height:100%;
+  border-radius: 30px; /* Add rounded corners if desired */
+  display:block;
+  transition:  transform 0.5s;
+}
+.layer{
+   width: 74%;
+   height: 0;
+   background: linear-gradient(rgba(0,0,0,0.6),#45B39D);
+   border-radius: 10px;
+   position: absolute;
+   top:20;
+   left: 1;
+   bottom: 0;
+   overflow: hidden;
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   padding: 0 40px;
+   text-align: center;
+   font-size: 14px;
+   transition: height 0.5s;
+}
+.layer h3{
+    font-size:140%;
+    color:#f2cb3c;
+    font-weight: bold;
+}
+.layer p{
+    font-size:100%;
+    color:#f2cb3c;
+}
+.work:hover img{
+     transform: scale(1.1);
+}
+.work:hover .layer{
+     height: 100%;
+}
+.btn2{
+    margin-top:1%;
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #f2cb3c;
+    padding: 14px 50px ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #f2cb3c;
+    transition: background 0.5s;
+}
+.btn2:hover{
+    background:#0E6655;
+}
+</style>
