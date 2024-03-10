@@ -9,6 +9,55 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+  <!---------------css for small screen---------->
+<style>
+nav .material-icons{
+      display:none;
+}
+@media only screen and (max-width: 600px){
+    .header-text{
+         font-size: 50px;
+    }
+    nav .material-icons{
+         display: block;
+         font-size: 35px;
+         color:#efc437;
+    }
+    nav ul{
+    background:  #45B39D;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 95vh;
+    padding-top: 50px;
+    z-index:2 ;
+    transition: right 0.5s;
+    }
+   nav ul li{
+   display: block;
+   font-size: 25px;
+   }
+   nav ul .material-icons{
+   position: absolute;
+   top:25px;
+   left: 25px;
+   cursor: pointer;
+   }
+   .subtitle{
+      font-size:40px;
+   }
+   .about-col-1, .about-col-2{
+      flex-basis: 100%;
+   }
+   .about-col-1{
+      margin-bottom:30px;
+   }
+   .about-col-2{
+      font-size: 14px;
+   }
+}
+</style>
   <style>
   body {
        /* Specify the path to your image */
@@ -54,7 +103,9 @@
         <li><a href="#Portfolio">Résultats</a> </li>
         <li><a href="#">Services</a> </li>
         <li><a href="#contact">contact</a> </li>
+        <i class="material-icons" onclick="closemenu()">&#xe5cd;</i>
       </ul>
+      <i class="material-icons" onclick="openmenu()">&#xe5d2;</i>
     </nav>
     <div class="header-text">
       <h1>AESTHETIC SIGNATURES</h1>
