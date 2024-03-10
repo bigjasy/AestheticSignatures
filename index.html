@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-  <!---------------css for small screen---------->
+<!---------------css for small screen---------->
 <style>
 nav .material-icons{
       display:none;
@@ -61,7 +61,7 @@ nav .material-icons{
 </style>
   <style>
   body {
-       /* Specify the path to your image */
+        background-image: url('images/Capture3.jpg'); /* Specify the path to your image */
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /
@@ -76,7 +76,7 @@ nav .material-icons{
   z-index: -1; /* Ensures the video stays in the background */
 }
 
-.background-video img {
+.background-video video {
   min-width: 100%;
   min-height: 100%;
   width: auto;
@@ -88,25 +88,24 @@ nav .material-icons{
 }
 
 </style>
-  <div class="background-video">
+    <div class="background-video">
     <img src="images/Capture3.jpg">
     Your browser does not support the video tag.
 </div>
-    
 <body>
 <div id="header">
   <div class="container">
     <nav>
       <img src="images/outputlogo.png">
-      <ul>
+      <ul id="sidemenu">
           <li><a href="#header">Accueil</a> </li>
-        <li><a href="#About">A propos-nous</a> </li>
-        <li><a href="#Portfolio">Résultats</a> </li>
-        <li><a href="#">Services</a> </li>
-        <li><a href="#contact">contact</a> </li>
-        <i class="material-icons" onclick="closemenu()">&#xe5cd;</i>
+          <li><a href="#About">A propos-nous</a> </li>
+          <li><a href="#Portfolio">Résultats</a> </li>
+          <li><a href="#">Services</a> </li>
+          <li><a href="#contact">contact</a> </li>
+          <i class="material-icons" onclick="closemenu()">&#xe5cd;</i>
       </ul>
-      <i class="material-icons" onclick="openmenu()">&#xe5d2;</i>
+        <i class="material-icons" onclick="openmenu()">&#xe5d2;</i>
     </nav>
     <div class="header-text">
       <h1>AESTHETIC SIGNATURES</h1>
@@ -476,7 +475,7 @@ form .btn2{
       .catch(error => console.error('Error!', error.message))
   })
 </script>
-  <script>
+    <script>
         var sidemenu = document.getElementById("sidemenu");
         function openmenu(){
              sidemenu.style.right = "0";
@@ -487,3 +486,4 @@ form .btn2{
     </script>
 </body>
 </html>
+
